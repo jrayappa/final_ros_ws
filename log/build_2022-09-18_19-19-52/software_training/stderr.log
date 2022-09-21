@@ -1,0 +1,37 @@
+CMake Warning (dev) at CMakeLists.txt:107:
+  Syntax Warning in cmake code at column 106
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:122:
+  Syntax Warning in cmake code at column 111
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+In file included from [01m[K/home/jrayappa/final_ros2_ws/src/software_training/src/spawn_turtle_nodelet.cpp:2[m[K:
+[01m[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:39:40:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |   std::vector<turtle_info> turtle_bio{{[01;35m[K.[m[Kx_pos = 5, .y_pos = 5, .rad = 0},
+      |                                        [01;35m[K^[m[K
+[01m[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:39:52:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |   std::vector<turtle_info> turtle_bio{{.x_pos = 5, [01;35m[K.[m[Ky_pos = 5, .rad = 0},
+      |                                                    [01;35m[K^[m[K
+[01m[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:39:64:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |   std::vector<turtle_info> turtle_bio{{.x_pos = 5, .y_pos = 5, [01;35m[K.[m[Krad = 0},
+      |                                                                [01;35m[K^[m[K
+[01m[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:40:40:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+   40 |                                       {[01;35m[K.[m[Kx_pos = 25, .y_pos = 10, .rad = 0}};
+      |                                        [01;35m[K^[m[K
+[01m[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:40:53:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+   40 |                                       {.x_pos = 25, [01;35m[K.[m[Ky_pos = 10, .rad = 0}};
+      |                                                     [01;35m[K^[m[K
+[01m[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:40:66:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+   40 |                                       {.x_pos = 25, .y_pos = 10, [01;35m[K.[m[Krad = 0}};
+      |                                                                  [01;35m[K^[m[K
+CMake Error at cmake_install.cmake:556 (file):
+  file INSTALL cannot find
+  "/home/jrayappa/final_ros2_ws/src/software_training/config": No such file
+  or directory.
+
+

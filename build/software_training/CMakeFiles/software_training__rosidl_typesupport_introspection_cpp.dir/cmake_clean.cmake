@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/software_training__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/software_training/action/detail/software__type_support.cpp.o"
+  "CMakeFiles/software_training__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/software_training/msg/detail/software__type_support.cpp.o"
+  "CMakeFiles/software_training__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/software_training/srv/detail/software__type_support.cpp.o"
+  "libsoftware_training__rosidl_typesupport_introspection_cpp.pdb"
+  "libsoftware_training__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/software_training/action/detail/software__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/software_training/action/detail/software__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/software_training/msg/detail/software__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/software_training/msg/detail/software__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/software_training/srv/detail/software__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/software_training/srv/detail/software__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/software_training__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,353 @@
+CMake Warning (dev) at CMakeLists.txt:107:
+  Syntax Warning in cmake code at column 106
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:122:
+  Syntax Warning in cmake code at column 111
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jrayappa/final_ros2_ws/build/software_training
+[35m[1mScanning dependencies of target turtle_request[0m
+[35m[1mScanning dependencies of target software_training__cpp[0m
+[35m[1mScanning dependencies of target turtle_spawn[0m
+[35m[1mScanning dependencies of target cmd_vel_publisher[0m
+[35m[1mScanning dependencies of target moving_action_server[0m
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] [32mBuilding CXX object CMakeFiles/moving_action_server.dir/rclcpp_components/node_main_moving_action_server.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/turtle_spawn.dir/src/spawn_turtle_nodelet.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/turtle_request.dir/src/turtle_neutralize.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/cmd_vel_publisher.dir/src/cmd_vel_moving_turt_publisher.cpp.o[0m
+[35m[1mScanning dependencies of target software_training__rosidl_generator_c[0m
+[ 11%] [32mBuilding C object CMakeFiles/software_training__rosidl_generator_c.dir/rosidl_generator_c/software_training/action/detail/software__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/software_training__rosidl_generator_c.dir/rosidl_generator_c/software_training/msg/detail/software__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/software_training__rosidl_generator_c.dir/rosidl_generator_c/software_training/srv/detail/software__functions.c.o[0m
+[ 14%] Built target software_training__cpp
+[ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 21%] [32m[1mLinking C shared library libsoftware_training__rosidl_generator_c.so[0m
+[ 21%] Built target software_training__rosidl_generator_c
+[ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target software_training__rosidl_typesupport_cpp[0m
+[35m[1mScanning dependencies of target software_training__rosidl_typesupport_introspection_c[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/software_training/msg/software__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/software_training/srv/software__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/software_training/action/software__type_support.cpp.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/software_training__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/software_training/msg/detail/software__type_support.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/software_training__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/software_training/srv/detail/software__type_support.c.o[0m
+[35m[1mScanning dependencies of target software_training__rosidl_typesupport_c[0m
+[ 34%] [32mBuilding C object CMakeFiles/software_training__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/software_training/action/detail/software__type_support.c.o[0m
+[35m[1mScanning dependencies of target software_training__rosidl_typesupport_introspection_cpp[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_c.dir/rosidl_typesupport_c/software_training/msg/software__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_c.dir/rosidl_typesupport_c/software_training/srv/software__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/software_training/msg/detail/software__type_support.cpp.o[0m
+[ 40%] [32m[1mLinking C shared library libsoftware_training__rosidl_typesupport_introspection_c.so[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_c.dir/rosidl_typesupport_c/software_training/action/software__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/software_training/srv/detail/software__type_support.cpp.o[0m
+[ 44%] Built target software_training__rosidl_typesupport_introspection_c
+[ 45%] [32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/software_training/action/detail/software__type_support.cpp.o[0m
+[ 47%] [32m[1mLinking CXX shared library libsoftware_training__rosidl_typesupport_c.so[0m
+[35m[1mScanning dependencies of target software_training__rosidl_typesupport_fastrtps_cpp[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/software_training/msg/detail/dds_fastrtps/software__type_support.cpp.o[0m
+[ 49%] Built target software_training__rosidl_typesupport_c
+[ 50%] [32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/software_training/srv/detail/dds_fastrtps/software__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/software_training/action/detail/dds_fastrtps/software__type_support.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library libsoftware_training__rosidl_typesupport_cpp.so[0m
+[ 54%] Built target software_training__rosidl_typesupport_cpp
+[ 55%] [32m[1mLinking CXX shared library libsoftware_training__rosidl_typesupport_introspection_cpp.so[0m
+In file included from [01m[K/home/jrayappa/final_ros2_ws/src/software_training/src/spawn_turtle_nodelet.cpp:2[m[K:
+[01m[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:39:40:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |   std::vector<turtle_info> turtle_bio{{[01;35m[K.[m[Kx_pos = 5, .y_pos = 5, .rad = 0},
+      |                                        [01;35m[K^[m[K
+[01m[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:39:52:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |   std::vector<turtle_info> turtle_bio{{.x_pos = 5, [01;35m[K.[m[Ky_pos = 5, .rad = 0},
+      |                                                    [01;35m[K^[m[K
+[01m[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:39:64:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 |   std::vector<turtle_info> turtle_bio{{.x_pos = 5, .y_pos = 5, [01;35m[K.[m[Krad = 0},
+      |                                                                [01;35m[K^[m[K
+[01m[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:40:40:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+   40 |                                       {[01;35m[K.[m[Kx_pos = 25, .y_pos = 10, .rad = 0}};
+      |                                        [01;35m[K^[m[K
+[01m[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:40:53:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+   40 |                                       {.x_pos = 25, [01;35m[K.[m[Ky_pos = 10, .rad = 0}};
+      |                                                     [01;35m[K^[m[K
+[01m[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:40:66:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+   40 |                                       {.x_pos = 25, .y_pos = 10, [01;35m[K.[m[Krad = 0}};
+      |                                                                  [01;35m[K^[m[K
+[ 55%] Built target software_training__rosidl_typesupport_introspection_cpp
+[ 57%] [32m[1mLinking CXX shared library libsoftware_training__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 57%] Built target software_training__rosidl_typesupport_fastrtps_cpp
+[ 59%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 60%] [32m[1mLinking CXX executable moving_action_server[0m
+[35m[1mScanning dependencies of target software_training__rosidl_typesupport_fastrtps_c[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/software_training/action/detail/software__type_support_c.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/software_training/srv/detail/software__type_support_c.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/software_training/msg/detail/software__type_support_c.cpp.o[0m
+[ 65%] Built target moving_action_server
+[ 67%] [32m[1mLinking CXX shared library libturtle_request.so[0m
+[ 68%] [32m[1mLinking CXX shared library libsoftware_training__rosidl_typesupport_fastrtps_c.so[0m
+[ 68%] Built target turtle_request
+[ 68%] Built target software_training__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target software_training[0m
+[ 68%] Built target software_training
+[35m[1mScanning dependencies of target turtle_service[0m
+[35m[1mScanning dependencies of target turtle_pub[0m
+[35m[1mScanning dependencies of target software_training__py[0m
+[35m[1mScanning dependencies of target turtle_action_server[0m
+[ 70%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/turtle_pub.dir/src/turtle_publisher.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/turtle_service.dir/src/reset_moving_turtle_service.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/turtle_action_server.dir/src/moving_turtle_action_server.cpp.o[0m
+[ 77%] [32m[1mLinking CXX shared library libturtle_spawn.so[0m
+[ 77%] Built target turtle_spawn
+[ 78%] [32m[1mLinking CXX shared library libcmd_vel_publisher.so[0m
+[ 78%] Built target cmd_vel_publisher
+[ 78%] Built target software_training__py
+[35m[1mScanning dependencies of target software_training__python[0m
+[ 80%] [32mBuilding C object CMakeFiles/software_training__python.dir/rosidl_generator_py/software_training/msg/_software_s.c.o[0m
+[ 81%] [32mBuilding C object CMakeFiles/software_training__python.dir/rosidl_generator_py/software_training/srv/_software_s.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/software_training__python.dir/rosidl_generator_py/software_training/action/_software_s.c.o[0m
+[ 85%] [32m[1mLinking C shared library rosidl_generator_py/software_training/libsoftware_training__python.so[0m
+[ 85%] Built target software_training__python
+[35m[1mScanning dependencies of target software_training__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mScanning dependencies of target software_training__rosidl_typesupport_c__pyext[0m
+[35m[1mScanning dependencies of target software_training__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 86%] [32mBuilding C object CMakeFiles/software_training__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/software_training/_software_training_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/software_training__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/software_training/_software_training_s.ep.rosidl_typesupport_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/software_training__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/software_training/_software_training_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 91%] [32m[1mLinking C shared library rosidl_generator_py/software_training/software_training_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 91%] Built target software_training__rosidl_typesupport_introspection_c__pyext
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/software_training/software_training_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 95%] [32m[1mLinking CXX shared library rosidl_generator_py/software_training/software_training_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 95%] Built target software_training__rosidl_typesupport_c__pyext
+[ 95%] Built target software_training__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] [32m[1mLinking CXX shared library libturtle_service.so[0m
+[ 96%] Built target turtle_service
+[ 98%] [32m[1mLinking CXX shared library libturtle_pub.so[0m
+[ 98%] Built target turtle_pub
+[100%] [32m[1mLinking CXX shared library libturtle_action_server.so[0m
+[100%] Built target turtle_action_server
+-- Install configuration: ""
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/ament_index/resource_index/rosidl_interfaces/software_training
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__functions.c
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__struct.h
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__functions.h
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__type_support.h
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/software.h
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__functions.c
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__struct.h
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__functions.h
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__type_support.h
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/software.h
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__functions.c
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__struct.h
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__functions.h
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__type_support.h
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/software.h
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/environment/library_path.sh
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/environment/library_path.dsv
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_generator_c.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/dds_fastrtps
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/dds_fastrtps
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/dds_fastrtps
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__type_support.c
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__type_support.c
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__type_support.c
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_c.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/software.hpp
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__struct.hpp
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__builder.hpp
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__traits.hpp
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/software.hpp
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__struct.hpp
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__builder.hpp
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__traits.hpp
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/software.hpp
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__struct.hpp
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__builder.hpp
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__traits.hpp
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__type_support.cpp
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__type_support.cpp
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action
+-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__type_support.cpp
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/environment/pythonpath.sh
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/environment/pythonpath.dsv
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/__init__.py
+Compiling '/home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/__init__.py'...
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/msg
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/msg/_software.py
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/msg/_software_s.c
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/msg/__init__.py
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/srv
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/srv/_software.py
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/srv/_software_s.c
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/srv/__init__.py
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/action
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/action/_software.py
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/action/_software_s.c
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/action/__init__.py
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/software_training_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/software_training_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/software_training_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/software_training_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/software_training_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/software_training_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__python.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__python.so" to ""
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/msg/Software.idl
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/srv/Software.idl
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/action/Software.idl
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/msg/Software.msg
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/srv/Software.srv
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/srv/Software_Request.msg
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/srv/Software_Response.msg
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/action/Software.action
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/software_training/moving_action_server
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/software_training/moving_action_server" to ""
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_request.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_request.so" to ""
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_spawn.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_spawn.so" to ""
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_pub.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_pub.so" to ""
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_service.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_service.so" to ""
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_action_server.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_action_server.so" to ""
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libcmd_vel_publisher.so
+-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libcmd_vel_publisher.so" to ""
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/launch
+-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/launch/software_training.launch.py
+CMake Error at cmake_install.cmake:556 (file):
+  file INSTALL cannot find
+  "/home/jrayappa/final_ros2_ws/src/software_training/config": No such file
+  or directory.
+
+

@@ -1,0 +1,6 @@
+Invoking command in '/home/jrayappa/final_ros2_ws/build/software_training': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jrayappa/final_ros2_ws/src/software_training -DCMAKE_INSTALL_PREFIX=/home/jrayappa/final_ros2_ws/install/software_training
+Invoked command in '/home/jrayappa/final_ros2_ws/build/software_training' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jrayappa/final_ros2_ws/src/software_training -DCMAKE_INSTALL_PREFIX=/home/jrayappa/final_ros2_ws/install/software_training
+Invoking command in '/home/jrayappa/final_ros2_ws/build/software_training': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jrayappa/final_ros2_ws/build/software_training -- -j12 -l12
+Invoked command in '/home/jrayappa/final_ros2_ws/build/software_training' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jrayappa/final_ros2_ws/build/software_training -- -j12 -l12
+Invoking command in '/home/jrayappa/final_ros2_ws/build/software_training': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jrayappa/final_ros2_ws/build/software_training
+Invoked command in '/home/jrayappa/final_ros2_ws/build/software_training' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jrayappa/final_ros2_ws/build/software_training

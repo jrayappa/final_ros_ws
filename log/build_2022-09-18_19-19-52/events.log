@@ -1,0 +1,481 @@
+[0.000000] (-) TimerEvent: {}
+[0.000090] (software_training) JobQueued: {'identifier': 'software_training', 'dependencies': OrderedDict()}
+[0.000138] (software_training) JobStarted: {'identifier': 'software_training'}
+[0.010023] (software_training) JobProgress: {'identifier': 'software_training', 'progress': 'cmake'}
+[0.010325] (software_training) Command: {'cmd': ['/usr/bin/cmake', '/home/jrayappa/final_ros2_ws/src/software_training', '-DCMAKE_INSTALL_PREFIX=/home/jrayappa/final_ros2_ws/install/software_training'], 'cwd': '/home/jrayappa/final_ros2_ws/build/software_training', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jrayappa'), ('SSH_AGENT_PID', '1419'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jrayappa'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/jrayappa/final_ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.71.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/108/usr/share/code/code'), ('MANAGERPID', '1190'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2360'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jrayappa'), ('JOURNAL_STREAM', '8:41546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jrayappa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jrayappa-Blade-15-Base-Model-Early-2020-RZ09-0328:@/tmp/.ICE-unix/1457,unix/jrayappa-Blade-15-Base-Model-Early-2020-RZ09-0328:/tmp/.ICE-unix/1457'), ('INVOCATION_ID', 'fc7399ab3cab49e89d1edb643214e426'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4eae2ed61b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/108/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jrayappa/final_ros2_ws/build/software_training'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.019299] (software_training) StderrLine: {'line': b'CMake Warning (dev) at CMakeLists.txt:107:\n'}
+[0.019618] (software_training) StderrLine: {'line': b'  Syntax Warning in cmake code at column 106\n'}
+[0.019740] (software_training) StderrLine: {'line': b'\n'}
+[0.019828] (software_training) StderrLine: {'line': b'  Argument not separated from preceding token by whitespace.\n'}
+[0.019880] (software_training) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.019954] (software_training) StderrLine: {'line': b'\n'}
+[0.020045] (software_training) StderrLine: {'line': b'CMake Warning (dev) at CMakeLists.txt:122:\n'}
+[0.020098] (software_training) StderrLine: {'line': b'  Syntax Warning in cmake code at column 111\n'}
+[0.020143] (software_training) StderrLine: {'line': b'\n'}
+[0.020189] (software_training) StderrLine: {'line': b'  Argument not separated from preceding token by whitespace.\n'}
+[0.020233] (software_training) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.020278] (software_training) StderrLine: {'line': b'\n'}
+[0.081547] (software_training) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099374] (-) TimerEvent: {}
+[0.141605] (software_training) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.144637] (software_training) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.188217] (software_training) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.188856] (software_training) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199484] (-) TimerEvent: {}
+[0.235966] (software_training) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.244205] (software_training) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.244485] (software_training) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.246319] (software_training) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.297379] (software_training) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.298179] (software_training) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299571] (-) TimerEvent: {}
+[0.353552] (software_training) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.362340] (software_training) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.362818] (software_training) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.364117] (software_training) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.380406] (software_training) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.380560] (software_training) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.399673] (-) TimerEvent: {}
+[0.499865] (-) TimerEvent: {}
+[0.526683] (software_training) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.555421] (software_training) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.559509] (software_training) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.599951] (-) TimerEvent: {}
+[0.605527] (software_training) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.626827] (software_training) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.678928] (software_training) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700019] (-) TimerEvent: {}
+[0.721503] (software_training) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.722586] (software_training) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.723340] (software_training) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.770150] (software_training) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.770413] (software_training) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800150] (-) TimerEvent: {}
+[0.821292] (software_training) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.821677] (software_training) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.859289] (software_training) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.859603] (software_training) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.900234] (-) TimerEvent: {}
+[0.906142] (software_training) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.907022] (software_training) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000355] (-) TimerEvent: {}
+[1.022943] (software_training) StdoutLine: {'line': b'-- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[1.098544] (software_training) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[1.100456] (-) TimerEvent: {}
+[1.145902] (software_training) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[1.169061] (software_training) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.193980] (software_training) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.200557] (-) TimerEvent: {}
+[1.218748] (software_training) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.300675] (-) TimerEvent: {}
+[1.400910] (-) TimerEvent: {}
+[1.404812] (software_training) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.501028] (-) TimerEvent: {}
+[1.599795] (software_training) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.601115] (-) TimerEvent: {}
+[1.695065] (software_training) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.701188] (-) TimerEvent: {}
+[1.715566] (software_training) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.716790] (software_training) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.735696] (software_training) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.735821] (software_training) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.735880] (software_training) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.735928] (software_training) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.751188] (software_training) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.801284] (-) TimerEvent: {}
+[1.831280] (software_training) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.901384] (-) TimerEvent: {}
+[1.939242] (software_training) StdoutLine: {'line': b'-- Generating done\n'}
+[1.941901] (software_training) StdoutLine: {'line': b'-- Build files have been written to: /home/jrayappa/final_ros2_ws/build/software_training\n'}
+[1.948845] (software_training) CommandEnded: {'returncode': 0}
+[1.949450] (software_training) JobProgress: {'identifier': 'software_training', 'progress': 'build'}
+[1.951108] (software_training) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jrayappa/final_ros2_ws/build/software_training', '--', '-j12', '-l12'], 'cwd': '/home/jrayappa/final_ros2_ws/build/software_training', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jrayappa'), ('SSH_AGENT_PID', '1419'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jrayappa'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/jrayappa/final_ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.71.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/108/usr/share/code/code'), ('MANAGERPID', '1190'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2360'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jrayappa'), ('JOURNAL_STREAM', '8:41546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jrayappa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jrayappa-Blade-15-Base-Model-Early-2020-RZ09-0328:@/tmp/.ICE-unix/1457,unix/jrayappa-Blade-15-Base-Model-Early-2020-RZ09-0328:/tmp/.ICE-unix/1457'), ('INVOCATION_ID', 'fc7399ab3cab49e89d1edb643214e426'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4eae2ed61b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/108/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jrayappa/final_ros2_ws/build/software_training'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.980113] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_request\x1b[0m\n'}
+[1.980352] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target software_training__cpp\x1b[0m\n'}
+[1.980473] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_spawn\x1b[0m\n'}
+[1.980566] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cmd_vel_publisher\x1b[0m\n'}
+[1.980653] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target moving_action_server\x1b[0m\n'}
+[1.980738] (software_training) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.988402] (software_training) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.001463] (-) TimerEvent: {}
+[2.064357] (software_training) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/moving_action_server.dir/rclcpp_components/node_main_moving_action_server.cpp.o\x1b[0m\n'}
+[2.068280] (software_training) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/turtle_spawn.dir/src/spawn_turtle_nodelet.cpp.o\x1b[0m\n'}
+[2.069015] (software_training) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/turtle_request.dir/src/turtle_neutralize.cpp.o\x1b[0m\n'}
+[2.072842] (software_training) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/cmd_vel_publisher.dir/src/cmd_vel_moving_turt_publisher.cpp.o\x1b[0m\n'}
+[2.101561] (-) TimerEvent: {}
+[2.202127] (-) TimerEvent: {}
+[2.302442] (-) TimerEvent: {}
+[2.402753] (-) TimerEvent: {}
+[2.503063] (-) TimerEvent: {}
+[2.577047] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target software_training__rosidl_generator_c\x1b[0m\n'}
+[2.600042] (software_training) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/software_training__rosidl_generator_c.dir/rosidl_generator_c/software_training/action/detail/software__functions.c.o\x1b[0m\n'}
+[2.602286] (software_training) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/software_training__rosidl_generator_c.dir/rosidl_generator_c/software_training/msg/detail/software__functions.c.o\x1b[0m\n'}
+[2.603142] (-) TimerEvent: {}
+[2.605006] (software_training) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/software_training__rosidl_generator_c.dir/rosidl_generator_c/software_training/srv/detail/software__functions.c.o\x1b[0m\n'}
+[2.606256] (software_training) StdoutLine: {'line': b'[ 14%] Built target software_training__cpp\n'}
+[2.621961] (software_training) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.623857] (software_training) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.646947] (software_training) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.698736] (software_training) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libsoftware_training__rosidl_generator_c.so\x1b[0m\n'}
+[2.703262] (-) TimerEvent: {}
+[2.751710] (software_training) StdoutLine: {'line': b'[ 21%] Built target software_training__rosidl_generator_c\n'}
+[2.765638] (software_training) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.767045] (software_training) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.803368] (-) TimerEvent: {}
+[2.903911] (-) TimerEvent: {}
+[3.004220] (-) TimerEvent: {}
+[3.104498] (-) TimerEvent: {}
+[3.213813] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target software_training__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.214079] (-) TimerEvent: {}
+[3.224831] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target software_training__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.228650] (software_training) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/software_training/msg/software__type_support.cpp.o\x1b[0m\n'}
+[3.232439] (software_training) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/software_training/srv/software__type_support.cpp.o\x1b[0m\n'}
+[3.239380] (software_training) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/software_training/action/software__type_support.cpp.o\x1b[0m\n'}
+[3.268969] (software_training) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/software_training__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/software_training/msg/detail/software__type_support.c.o\x1b[0m\n'}
+[3.283587] (software_training) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/software_training__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/software_training/srv/detail/software__type_support.c.o\x1b[0m\n'}
+[3.314187] (-) TimerEvent: {}
+[3.337581] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target software_training__rosidl_typesupport_c\x1b[0m\n'}
+[3.350412] (software_training) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/software_training__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/software_training/action/detail/software__type_support.c.o\x1b[0m\n'}
+[3.350748] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target software_training__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.377771] (software_training) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_c.dir/rosidl_typesupport_c/software_training/msg/software__type_support.cpp.o\x1b[0m\n'}
+[3.382478] (software_training) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_c.dir/rosidl_typesupport_c/software_training/srv/software__type_support.cpp.o\x1b[0m\n'}
+[3.396495] (software_training) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/software_training/msg/detail/software__type_support.cpp.o\x1b[0m\n'}
+[3.414302] (-) TimerEvent: {}
+[3.428287] (software_training) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking C shared library libsoftware_training__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.456385] (software_training) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_c.dir/rosidl_typesupport_c/software_training/action/software__type_support.cpp.o\x1b[0m\n'}
+[3.460578] (software_training) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/software_training/srv/detail/software__type_support.cpp.o\x1b[0m\n'}
+[3.495928] (software_training) StdoutLine: {'line': b'[ 44%] Built target software_training__rosidl_typesupport_introspection_c\n'}
+[3.509048] (software_training) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/software_training/action/detail/software__type_support.cpp.o\x1b[0m\n'}
+[3.514410] (-) TimerEvent: {}
+[3.531696] (software_training) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libsoftware_training__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.540862] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target software_training__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.614653] (-) TimerEvent: {}
+[3.623108] (software_training) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/software_training/msg/detail/dds_fastrtps/software__type_support.cpp.o\x1b[0m\n'}
+[3.702660] (software_training) StdoutLine: {'line': b'[ 49%] Built target software_training__rosidl_typesupport_c\n'}
+[3.714753] (-) TimerEvent: {}
+[3.721793] (software_training) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/software_training/srv/detail/dds_fastrtps/software__type_support.cpp.o\x1b[0m\n'}
+[3.738620] (software_training) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/software_training/action/detail/dds_fastrtps/software__type_support.cpp.o\x1b[0m\n'}
+[3.793514] (software_training) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libsoftware_training__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.814879] (-) TimerEvent: {}
+[3.859095] (software_training) StdoutLine: {'line': b'[ 54%] Built target software_training__rosidl_typesupport_cpp\n'}
+[3.914988] (-) TimerEvent: {}
+[4.017557] (-) TimerEvent: {}
+[4.031570] (software_training) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libsoftware_training__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.075276] (software_training) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jrayappa/final_ros2_ws/src/software_training/src/spawn_turtle_nodelet.cpp:2\x1b[m\x1b[K:\n'}
+[4.075631] (software_training) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:39:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++2a\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++2a\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.075772] (software_training) StderrLine: {'line': b'   39 |   std::vector<turtle_info> turtle_bio{{\x1b[01;35m\x1b[K.\x1b[m\x1b[Kx_pos = 5, .y_pos = 5, .rad = 0},\n'}
+[4.075865] (software_training) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.075951] (software_training) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:39:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++2a\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++2a\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.076044] (software_training) StderrLine: {'line': b'   39 |   std::vector<turtle_info> turtle_bio{{.x_pos = 5, \x1b[01;35m\x1b[K.\x1b[m\x1b[Ky_pos = 5, .rad = 0},\n'}
+[4.076132] (software_training) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.076226] (software_training) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:39:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++2a\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++2a\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.076317] (software_training) StderrLine: {'line': b'   39 |   std::vector<turtle_info> turtle_bio{{.x_pos = 5, .y_pos = 5, \x1b[01;35m\x1b[K.\x1b[m\x1b[Krad = 0},\n'}
+[4.076405] (software_training) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.076493] (software_training) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:40:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++2a\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++2a\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.076583] (software_training) StderrLine: {'line': b'   40 |                                       {\x1b[01;35m\x1b[K.\x1b[m\x1b[Kx_pos = 25, .y_pos = 10, .rad = 0}};\n'}
+[4.076669] (software_training) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.076761] (software_training) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:40:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++2a\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++2a\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.076854] (software_training) StderrLine: {'line': b'   40 |                                       {.x_pos = 25, \x1b[01;35m\x1b[K.\x1b[m\x1b[Ky_pos = 10, .rad = 0}};\n'}
+[4.076965] (software_training) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.077059] (software_training) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jrayappa/final_ros2_ws/src/software_training/include/software_training/spawn_turtle_nodelet.hpp:40:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++2a\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++2a\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.077164] (software_training) StderrLine: {'line': b'   40 |                                       {.x_pos = 25, .y_pos = 10, \x1b[01;35m\x1b[K.\x1b[m\x1b[Krad = 0}};\n'}
+[4.077264] (software_training) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.107146] (software_training) StdoutLine: {'line': b'[ 55%] Built target software_training__rosidl_typesupport_introspection_cpp\n'}
+[4.117655] (-) TimerEvent: {}
+[4.217934] (-) TimerEvent: {}
+[4.318177] (-) TimerEvent: {}
+[4.401203] (software_training) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libsoftware_training__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.418281] (-) TimerEvent: {}
+[4.495321] (software_training) StdoutLine: {'line': b'[ 57%] Built target software_training__rosidl_typesupport_fastrtps_cpp\n'}
+[4.504478] (software_training) StdoutLine: {'line': b'[ 59%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.518372] (-) TimerEvent: {}
+[4.618648] (-) TimerEvent: {}
+[4.718938] (-) TimerEvent: {}
+[4.819241] (-) TimerEvent: {}
+[4.843784] (software_training) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable moving_action_server\x1b[0m\n'}
+[4.919371] (-) TimerEvent: {}
+[4.933906] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target software_training__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.958378] (software_training) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/software_training/action/detail/software__type_support_c.cpp.o\x1b[0m\n'}
+[4.958616] (software_training) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/software_training/srv/detail/software__type_support_c.cpp.o\x1b[0m\n'}
+[4.958745] (software_training) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/software_training__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/software_training/msg/detail/software__type_support_c.cpp.o\x1b[0m\n'}
+[4.984345] (software_training) StdoutLine: {'line': b'[ 65%] Built target moving_action_server\n'}
+[5.019478] (-) TimerEvent: {}
+[5.119790] (-) TimerEvent: {}
+[5.220116] (-) TimerEvent: {}
+[5.320440] (-) TimerEvent: {}
+[5.409463] (software_training) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_request.so\x1b[0m\n'}
+[5.420533] (-) TimerEvent: {}
+[5.481912] (software_training) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libsoftware_training__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.520639] (-) TimerEvent: {}
+[5.539693] (software_training) StdoutLine: {'line': b'[ 68%] Built target turtle_request\n'}
+[5.567166] (software_training) StdoutLine: {'line': b'[ 68%] Built target software_training__rosidl_typesupport_fastrtps_c\n'}
+[5.574832] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target software_training\x1b[0m\n'}
+[5.583451] (software_training) StdoutLine: {'line': b'[ 68%] Built target software_training\n'}
+[5.592629] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_service\x1b[0m\n'}
+[5.592847] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_pub\x1b[0m\n'}
+[5.592983] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target software_training__py\x1b[0m\n'}
+[5.595376] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_action_server\x1b[0m\n'}
+[5.603092] (software_training) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.620729] (-) TimerEvent: {}
+[5.629916] (software_training) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/turtle_pub.dir/src/turtle_publisher.cpp.o\x1b[0m\n'}
+[5.635616] (software_training) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtle_service.dir/src/reset_moving_turtle_service.cpp.o\x1b[0m\n'}
+[5.659526] (software_training) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtle_action_server.dir/src/moving_turtle_action_server.cpp.o\x1b[0m\n'}
+[5.692103] (software_training) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_spawn.so\x1b[0m\n'}
+[5.720850] (-) TimerEvent: {}
+[5.821180] (-) TimerEvent: {}
+[5.837122] (software_training) StdoutLine: {'line': b'[ 77%] Built target turtle_spawn\n'}
+[5.879891] (software_training) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libcmd_vel_publisher.so\x1b[0m\n'}
+[5.921282] (-) TimerEvent: {}
+[6.021591] (-) TimerEvent: {}
+[6.040548] (software_training) StdoutLine: {'line': b'[ 78%] Built target cmd_vel_publisher\n'}
+[6.121695] (-) TimerEvent: {}
+[6.221999] (-) TimerEvent: {}
+[6.322319] (-) TimerEvent: {}
+[6.422644] (-) TimerEvent: {}
+[6.522945] (-) TimerEvent: {}
+[6.623233] (-) TimerEvent: {}
+[6.723538] (-) TimerEvent: {}
+[6.792655] (software_training) StdoutLine: {'line': b'[ 78%] Built target software_training__py\n'}
+[6.800858] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target software_training__python\x1b[0m\n'}
+[6.820632] (software_training) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/software_training__python.dir/rosidl_generator_py/software_training/msg/_software_s.c.o\x1b[0m\n'}
+[6.823637] (-) TimerEvent: {}
+[6.824165] (software_training) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/software_training__python.dir/rosidl_generator_py/software_training/srv/_software_s.c.o\x1b[0m\n'}
+[6.824363] (software_training) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/software_training__python.dir/rosidl_generator_py/software_training/action/_software_s.c.o\x1b[0m\n'}
+[6.923749] (-) TimerEvent: {}
+[6.986689] (software_training) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/software_training/libsoftware_training__python.so\x1b[0m\n'}
+[7.023866] (-) TimerEvent: {}
+[7.028324] (software_training) StdoutLine: {'line': b'[ 85%] Built target software_training__python\n'}
+[7.037990] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target software_training__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.041146] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target software_training__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.041342] (software_training) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target software_training__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.058373] (software_training) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/software_training__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/software_training/_software_training_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.064461] (software_training) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/software_training__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/software_training/_software_training_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.067677] (software_training) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/software_training__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/software_training/_software_training_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.123974] (-) TimerEvent: {}
+[7.168304] (software_training) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/software_training/software_training_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.206531] (software_training) StdoutLine: {'line': b'[ 91%] Built target software_training__rosidl_typesupport_introspection_c__pyext\n'}
+[7.223022] (software_training) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/software_training/software_training_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.224047] (-) TimerEvent: {}
+[7.228961] (software_training) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/software_training/software_training_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.262215] (software_training) StdoutLine: {'line': b'[ 95%] Built target software_training__rosidl_typesupport_c__pyext\n'}
+[7.297062] (software_training) StdoutLine: {'line': b'[ 95%] Built target software_training__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.324162] (-) TimerEvent: {}
+[7.424480] (-) TimerEvent: {}
+[7.524754] (-) TimerEvent: {}
+[7.625071] (-) TimerEvent: {}
+[7.725398] (-) TimerEvent: {}
+[7.825712] (-) TimerEvent: {}
+[7.925934] (-) TimerEvent: {}
+[8.026164] (-) TimerEvent: {}
+[8.126403] (-) TimerEvent: {}
+[8.226660] (-) TimerEvent: {}
+[8.326925] (-) TimerEvent: {}
+[8.361244] (software_training) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_service.so\x1b[0m\n'}
+[8.427048] (-) TimerEvent: {}
+[8.489491] (software_training) StdoutLine: {'line': b'[ 96%] Built target turtle_service\n'}
+[8.527143] (-) TimerEvent: {}
+[8.627422] (-) TimerEvent: {}
+[8.727710] (-) TimerEvent: {}
+[8.827977] (-) TimerEvent: {}
+[8.928266] (-) TimerEvent: {}
+[9.028538] (-) TimerEvent: {}
+[9.128798] (-) TimerEvent: {}
+[9.229072] (-) TimerEvent: {}
+[9.329342] (-) TimerEvent: {}
+[9.429626] (-) TimerEvent: {}
+[9.529893] (-) TimerEvent: {}
+[9.630155] (-) TimerEvent: {}
+[9.730420] (-) TimerEvent: {}
+[9.830704] (-) TimerEvent: {}
+[9.930984] (-) TimerEvent: {}
+[10.031263] (-) TimerEvent: {}
+[10.131525] (-) TimerEvent: {}
+[10.231808] (-) TimerEvent: {}
+[10.332069] (-) TimerEvent: {}
+[10.392681] (software_training) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_pub.so\x1b[0m\n'}
+[10.432191] (-) TimerEvent: {}
+[10.532441] (-) TimerEvent: {}
+[10.598923] (software_training) StdoutLine: {'line': b'[ 98%] Built target turtle_pub\n'}
+[10.632552] (-) TimerEvent: {}
+[10.732805] (-) TimerEvent: {}
+[10.833037] (-) TimerEvent: {}
+[10.933295] (-) TimerEvent: {}
+[11.033549] (-) TimerEvent: {}
+[11.050865] (software_training) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_action_server.so\x1b[0m\n'}
+[11.133670] (-) TimerEvent: {}
+[11.233930] (-) TimerEvent: {}
+[11.284396] (software_training) StdoutLine: {'line': b'[100%] Built target turtle_action_server\n'}
+[11.292478] (software_training) CommandEnded: {'returncode': 0}
+[11.334024] (-) TimerEvent: {}
+[11.344361] (software_training) JobProgress: {'identifier': 'software_training', 'progress': 'install'}
+[11.352410] (software_training) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jrayappa/final_ros2_ws/build/software_training'], 'cwd': '/home/jrayappa/final_ros2_ws/build/software_training', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jrayappa'), ('SSH_AGENT_PID', '1419'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jrayappa'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/jrayappa/final_ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.71.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/108/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/108/usr/share/code/code'), ('MANAGERPID', '1190'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2360'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jrayappa'), ('JOURNAL_STREAM', '8:41546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jrayappa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jrayappa-Blade-15-Base-Model-Early-2020-RZ09-0328:@/tmp/.ICE-unix/1457,unix/jrayappa-Blade-15-Base-Model-Early-2020-RZ09-0328:/tmp/.ICE-unix/1457'), ('INVOCATION_ID', 'fc7399ab3cab49e89d1edb643214e426'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4eae2ed61b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/108/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jrayappa/final_ros2_ws/build/software_training'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[11.360143] (software_training) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.360302] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/ament_index/resource_index/rosidl_interfaces/software_training\n'}
+[11.360393] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training\n'}
+[11.360487] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv\n'}
+[11.360574] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail\n'}
+[11.360624] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__functions.c\n'}
+[11.360701] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__struct.h\n'}
+[11.360776] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__functions.h\n'}
+[11.360850] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__type_support.h\n'}
+[11.360922] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/software.h\n'}
+[11.360994] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg\n'}
+[11.361057] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.361127] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail\n'}
+[11.361201] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__functions.c\n'}
+[11.361271] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__struct.h\n'}
+[11.361339] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__functions.h\n'}
+[11.361466] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__type_support.h\n'}
+[11.361545] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/software.h\n'}
+[11.361619] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action\n'}
+[11.361691] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail\n'}
+[11.361765] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__functions.c\n'}
+[11.361857] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__struct.h\n'}
+[11.362006] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__functions.h\n'}
+[11.362101] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__type_support.h\n'}
+[11.362207] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/software.h\n'}
+[11.362404] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/environment/library_path.sh\n'}
+[11.362548] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/environment/library_path.dsv\n'}
+[11.362757] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_generator_c.so\n'}
+[11.363084] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_generator_c.so" to ""\n'}
+[11.363161] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training\n'}
+[11.363238] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv\n'}
+[11.363324] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail\n'}
+[11.363377] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__rosidl_typesupport_fastrtps_c.h\n'}
+[11.363451] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg\n'}
+[11.363526] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.363608] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail\n'}
+[11.363660] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__rosidl_typesupport_fastrtps_c.h\n'}
+[11.363711] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action\n'}
+[11.363785] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail\n'}
+[11.363862] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__rosidl_typesupport_fastrtps_c.h\n'}
+[11.363935] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_fastrtps_c.so\n'}
+[11.364134] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.364205] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training\n'}
+[11.364279] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv\n'}
+[11.364359] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail\n'}
+[11.364411] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/dds_fastrtps\n'}
+[11.364485] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.364564] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg\n'}
+[11.364637] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.364689] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail\n'}
+[11.364740] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/dds_fastrtps\n'}
+[11.364816] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.364934] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action\n'}
+[11.364999] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail\n'}
+[11.365061] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/dds_fastrtps\n'}
+[11.365148] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.365240] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.365702] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.365769] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training\n'}
+[11.365834] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv\n'}
+[11.365895] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail\n'}
+[11.365995] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__type_support.c\n'}
+[11.366046] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__rosidl_typesupport_introspection_c.h\n'}
+[11.366126] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg\n'}
+[11.366177] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.366255] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail\n'}
+[11.366343] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__type_support.c\n'}
+[11.366391] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__rosidl_typesupport_introspection_c.h\n'}
+[11.366441] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action\n'}
+[11.366492] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail\n'}
+[11.366542] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__type_support.c\n'}
+[11.366611] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__rosidl_typesupport_introspection_c.h\n'}
+[11.366686] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_introspection_c.so\n'}
+[11.366894] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.366990] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_c.so\n'}
+[11.367237] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_c.so" to ""\n'}
+[11.367316] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training\n'}
+[11.367397] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv\n'}
+[11.367477] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/software.hpp\n'}
+[11.367555] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail\n'}
+[11.367633] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__struct.hpp\n'}
+[11.367713] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__builder.hpp\n'}
+[11.367793] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__traits.hpp\n'}
+[11.367885] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg\n'}
+[11.367960] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/software.hpp\n'}
+[11.368041] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail\n'}
+[11.368095] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__struct.hpp\n'}
+[11.368170] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__builder.hpp\n'}
+[11.368247] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__traits.hpp\n'}
+[11.368301] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action\n'}
+[11.368376] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/software.hpp\n'}
+[11.368458] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail\n'}
+[11.368510] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__struct.hpp\n'}
+[11.368576] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__builder.hpp\n'}
+[11.368644] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__traits.hpp\n'}
+[11.368715] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training\n'}
+[11.368790] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv\n'}
+[11.368883] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail\n'}
+[11.368960] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__type_support.cpp\n'}
+[11.369018] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/srv/detail/software__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.369112] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg\n'}
+[11.369211] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail\n'}
+[11.369276] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__type_support.cpp\n'}
+[11.369374] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/msg/detail/software__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.369472] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action\n'}
+[11.369530] (software_training) StdoutLine: {'line': b'-- Up-to-date: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail\n'}
+[11.369593] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__type_support.cpp\n'}
+[11.369687] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/include/software_training/action/detail/software__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.369800] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_introspection_cpp.so\n'}
+[11.370125] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.370218] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_cpp.so\n'}
+[11.370457] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__rosidl_typesupport_cpp.so" to ""\n'}
+[11.370531] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/environment/pythonpath.sh\n'}
+[11.370633] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/environment/pythonpath.dsv\n'}
+[11.370784] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/__init__.py\n'}
+[11.394541] (software_training) StdoutLine: {'line': b"Compiling '/home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/__init__.py'...\n"}
+[11.397053] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/msg\n'}
+[11.397185] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/msg/_software.py\n'}
+[11.397240] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/msg/_software_s.c\n'}
+[11.397324] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/msg/__init__.py\n'}
+[11.397424] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/srv\n'}
+[11.397633] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/srv/_software.py\n'}
+[11.397786] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/srv/_software_s.c\n'}
+[11.397841] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/srv/__init__.py\n'}
+[11.397923] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/action\n'}
+[11.398004] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/action/_software.py\n'}
+[11.398076] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/action/_software_s.c\n'}
+[11.398139] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/action/__init__.py\n'}
+[11.398349] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/software_training_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[11.398748] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/software_training_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[11.398931] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/software_training_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[11.399295] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/software_training_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[11.399458] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/software_training_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[11.399795] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/python3.8/site-packages/software_training/software_training_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[11.399880] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__python.so\n'}
+[11.400137] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libsoftware_training__python.so" to ""\n'}
+[11.400226] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/msg/Software.idl\n'}
+[11.400357] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/srv/Software.idl\n'}
+[11.400481] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/action/Software.idl\n'}
+[11.400586] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/msg/Software.msg\n'}
+[11.400684] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/srv/Software.srv\n'}
+[11.400783] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/srv/Software_Request.msg\n'}
+[11.400907] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/srv/Software_Response.msg\n'}
+[11.401014] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/action/Software.action\n'}
+[11.401178] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/software_training/moving_action_server\n'}
+[11.401555] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/software_training/moving_action_server" to ""\n'}
+[11.401637] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_request.so\n'}
+[11.402349] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_request.so" to ""\n'}
+[11.402437] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_spawn.so\n'}
+[11.403227] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_spawn.so" to ""\n'}
+[11.403310] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_pub.so\n'}
+[11.405694] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_pub.so" to ""\n'}
+[11.405778] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_service.so\n'}
+[11.406633] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_service.so" to ""\n'}
+[11.406715] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_action_server.so\n'}
+[11.409685] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libturtle_action_server.so" to ""\n'}
+[11.409767] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/lib/libcmd_vel_publisher.so\n'}
+[11.410671] (software_training) StdoutLine: {'line': b'-- Set runtime path of "/home/jrayappa/final_ros2_ws/install/software_training/lib/libcmd_vel_publisher.so" to ""\n'}
+[11.410740] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/launch\n'}
+[11.410808] (software_training) StdoutLine: {'line': b'-- Installing: /home/jrayappa/final_ros2_ws/install/software_training/share/software_training/launch/software_training.launch.py\n'}
+[11.410926] (software_training) StderrLine: {'line': b'CMake Error at cmake_install.cmake:556 (file):\n'}
+[11.411150] (software_training) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[11.411200] (software_training) StderrLine: {'line': b'  "/home/jrayappa/final_ros2_ws/src/software_training/config": No such file\n'}
+[11.411247] (software_training) StderrLine: {'line': b'  or directory.\n'}
+[11.411292] (software_training) StderrLine: {'line': b'\n'}
+[11.411337] (software_training) StderrLine: {'line': b'\n'}
+[11.412203] (software_training) CommandEnded: {'returncode': 1}
+[11.434113] (-) TimerEvent: {}
+[11.484276] (software_training) JobEnded: {'identifier': 'software_training', 'rc': 1}
+[11.494879] (-) EventReactorShutdown: {}

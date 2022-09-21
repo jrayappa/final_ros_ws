@@ -1,0 +1,8 @@
+{
+  "package_name": "software_training",
+  "non_idl_tuples": [
+    "/home/jrayappa/final_ros2_ws/src/software_training:msg/Software.msg",
+    "/home/jrayappa/final_ros2_ws/src/software_training:srv/Software.srv",
+    "/home/jrayappa/final_ros2_ws/src/software_training:action/Software.action"
+  ]
+}

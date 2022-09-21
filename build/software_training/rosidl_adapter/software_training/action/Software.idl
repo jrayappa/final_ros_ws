@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from software_training/action/Software.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module software_training {
+  module action {
+    @verbatim (language="comment", text=
+      " Goal Request /moving_turtle/cmd_vel")
+    struct Software_Goal {
+      geometry_msgs::msg::Vector3 linear_pos;
+
+      geometry_msgs::msg::Vector3 angular_pos;
+    };
+    struct Software_Result {
+      uint64 duration;
+    };
+    struct Software_Feedback {
+      @verbatim (language="comment", text=
+        " Feedback /moving_turtle/pose")
+      float x_pos;
+
+      float y_pos;
+
+      float theta_pos;
+    };
+  };
+};
